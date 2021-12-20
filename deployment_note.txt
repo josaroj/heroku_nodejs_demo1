@@ -1,0 +1,45 @@
+
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+codemobiles
+/
+cm_heroku_nextjs
+Public
+Code
+Issues
+Pull requests
+6
+Actions
+Projects
+Wiki
+Security
+Insights
+cm_heroku_nextjs/deployment_note.txt
+@codemobiles
+codemobiles 1234
+Latest commit 06e1344 on Jul 2, 2020
+ History
+ 1 contributor
+25 lines (18 sloc)  486 Bytes
+   
+#1. Set engines
+-----------------------------------
+ "engines": {
+    "node": "12.16.3",
+    "npm": "6.14.4"
+  }
+
+#2. Heroku cli
+-----------------------------------
+sudo yarn global add heroku
+
+#3. Check log
+-----------------------------------
+heroku logs --tail --app heroku-cm-demo
